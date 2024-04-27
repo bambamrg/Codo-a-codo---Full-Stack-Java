@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(159, 195, 250);
+}
+
+p {
+    border-radius: 2px;
+    color: #333;
+}
+
+header {
+    font-family: 'Lobster Two', cursive;
+    padding: 15px;
+    background-color: white;
+    color: purple;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: block;
+}
+
+h1 {
+    font-weight: 200;
+    text-align: center;
+    font-size: 2.5em;
+}
+h2 { 
+    font-size: 24px; 
+}
+
+#imagen-datos {
+    display: block;
+    width: 300px;
+    height: 150px;
+    border: 2px solid #ddd; 
+    border-radius: 5px;  
+    margin: 10px auto;  
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0 auto;
+}
+
+.titulos-disponibles {
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px black;
+}
+
+#titulos-disponibles-resaltar:hover{
+    transform: scale(1.1);
+}
+
+
+
+footer {
+    background-color: rgb(178, 207, 250);
+    text-align: center;
+    padding: 10px; /* Add some padding for content */
+}
