@@ -16,7 +16,8 @@ header {
 }
 
 nav {
-    display: block;
+    display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -27,6 +28,8 @@ h1 {
 h2 { 
     font-size: 24px; 
 }
+
+
 
 #imagen-datos {
     display: block;
