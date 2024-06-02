@@ -99,3 +99,26 @@ footer {
     border: none;
     cursor: pointer;
   }
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form h1 { 
+    text-align: center;
+}
+
+label, button, input {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    width: 25%;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #434b53;
+    cursor: pointer;
+}
+
